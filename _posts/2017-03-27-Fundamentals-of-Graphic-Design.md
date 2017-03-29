@@ -8,7 +8,7 @@ This is my notes of [Fundamentals of Graphic Design](https://www.coursera.org/le
 
 Updates onging...
 
-## Fundamentals of Imagemaking
+## I. Fundamentals of Imagemaking
 
 - Image
 - Type
@@ -35,7 +35,7 @@ Updates onging...
 
 An idea or feeling that a word invokes in addition to its literal meaning.
 
-## Typography
+## II. Fundamentals of Typography
 
 How we communicate with words.
 
@@ -68,9 +68,9 @@ POINT SIZE - the measurement system for type.
 Basic standard type size:
 ![Basic standard type size]({{ site.url }}/assets/design/graphic_design/basic_standard_type_size.png)
 
-#### Typesetting Text
+#### Typesetting Text - Leading (行距)
 
-Leading: height btw baselines
+Height btw baselines
 ![Leading]({{ site.url }}/assets/design/graphic_design/leading.png)
 
 
@@ -78,11 +78,11 @@ Leading: height btw baselines
 
 #### Typefaces, Fonts and Type Families
 
-Font VS. Typeface:
+Font vs. Typeface:
 ![font]({{ site.url }}/assets/design/graphic_design/font.png)
 ![typeface]({{ site.url }}/assets/design/graphic_design/typeface.png)
 
-Serif VS. Sans Serif:
+Serif vs. Sans Serif:
 ![serif]({{ site.url }}/assets/design/graphic_design/serif.png)
 
 #### Typeface Categories
@@ -98,4 +98,57 @@ Weight & Width:
 
 ### How to "Read" Typography
 
+#### Denotation vs. Connotation in TYpe
+![weight_and_wdenotation_connotationidth]({{ site.url }}/assets/design/graphic_design/denotation_connotation.png)
+
 ### How to Use a Typeface
+
+#### Letterforms (字体)
+
+#### Experimenting with Leterforms
+
+#### Typographic Composition
+
+
+## III. Fundamentals of Shape and Color
+
+Topics:
+- Simple & Complex Forms
+- Negative & Position Space
+- Figure/Ground Relationships
+- Attributes of Color
+- Complimentary vs. Contrasting
+- Print vs. Screen
+- Repetition, Rhythm, Pattern
+
+#### Graphic Shapes
+
+Graphic shapes are used to make marks, icons, symbols.
+
+#### Visual Contrast
+#### Marks, Icons, and Symbols
+#### Negative/Positive, Figure/Ground
+#### Working with Color
+#### The Color Wheel
+#### Mixing Color: Paint, Print and Screen
+
+### Rhythm and Pattern
+
+## IV. Fundamentals of Composition
+
+### All About Contrast
+
+#### Visual Contrasts
+#### Single Contrasts
+#### Multiple Contrasts
+#### Type Contrasts
+#### Image Contrasts
+
+
+### Working with Images
+
+#### Composition in a Single Image
+#### Cropping and Hierarchy
+
+### Putting It All Together
+#### Composition in Context
