@@ -37,6 +37,7 @@ unpublished: false
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 theme: materialized-jekyll
 gems:
   - jekyll-feed
