@@ -1,3 +1,9 @@
+PATH
+  remote: ../materialized-jekyll
+  specs:
+    materialized-jekyll (0.1.0)
+      jekyll (~> 3.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -31,8 +37,6 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (2.1.0)
-      jekyll (~> 3.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -50,7 +54,7 @@ DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-compose
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  materialized-jekyll!
   tzinfo-data
 
 RUBY VERSION
