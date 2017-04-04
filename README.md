@@ -1,7 +1,7 @@
 # lisatinglu.com
 A personal website filled with dev notes and thoughts.
 
-Themed by [Slim Bold Jekyll](https://github.com/tinglu/slim-bold-jekyll) developed by me.
+Themed by [Materialized Jekyll](https://github.com/tinglu/materialized-jekyll) developed by me.
 
 ## Development
 
