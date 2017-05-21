@@ -41,7 +41,8 @@ function trackQuestions(){
 }
 ```
 
-```PHP
+
+```php
 $qStatus = json_decode(stripslashes($_POST['qStatus']), true);
 ```
 

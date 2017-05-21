@@ -13,13 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Lisa Ting Lu Personal Website
+title: Lisa's IT and Stuff
 description: > # this means to ignore newlines until "baseurl:"
   Web Developer focusing on Frontend development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://lisatinglu.com" # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: lisatinglu
 github_username:  tinglu
 codepen_username: lisatinglu
+twitter_username: lisatinglu
 
 # Handling Reading
 safe:         false
@@ -36,7 +38,19 @@ future:      false
 unpublished: false
 
 # Build settings
-markdown: kramdown
+markdown:    kramdown
+kramdown:
+#    input: GFM
+    syntax_highlighter: rouge
+#    syntax_highlighter_opts:
+#      # Rouge Options › https://github.com/jneen/rouge#full-options
+#      css_class: 'highlight'
+#      #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+#      span:
+#        line_numbers: false
+#      block:
+#        line_numbers: true
+#        start_line: 1
 highlighter: rouge
 theme: materialized-jekyll
 gems:

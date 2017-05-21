@@ -4,9 +4,9 @@ title:  "Fundamentals of Graphic Design"
 date:   2017-03-27 23:45:00 +1100
 categories: Graphic Design
 ---
-This is my notes of [Fundamentals of Graphic Design](https://www.coursera.org/learn/fundamentals-of-graphic-design/) provided by Coursera.
+This is purely the notes of [Fundamentals of Graphic Design](https://www.coursera.org/learn/fundamentals-of-graphic-design/) provided by Coursera.
 
-Updates onging...
+Updates ongoing...
 
 ## I. Fundamentals of Imagemaking
 
@@ -126,8 +126,41 @@ Topics:
 Graphic shapes are used to make marks, icons, symbols.
 
 #### Visual Contrast
+
+- simple geometry shapes vs. non-geometrical shapes with contrast
+- small vs. large
+- vertical vs. horizontal
+- narrow vs. broad/wide
+- (depth) shallow vs. deep
+- moving vs. static
+- (tone) light vs. dark
+- soft vs. hard
+- (weight) light vs. heavy
+- line vs. volume
+
 #### Marks, Icons, and Symbols
+
+Marks = graphic shapes = normally no connotation => denotative form
+
+Icons:
+- pictorial
+- represents actual things
+- easy to read
+
+Symbols:
+- non-pictorial
+- represents ideas/products
+- learned/coded
+
 #### Negative/Positive, Figure/Ground
+
+An object on a background relationship that results in different perceptions.
+
+Figure/Ground relationship examples:
+- black shape on white background is brighter than white shape on black background
+- different figures with different depth produce the different distance on same ground
+- figures in same size but different tones produce different depth (darker denser shapes are closer than those lighter fuzzier ones)
+
 #### Working with Color
 #### The Color Wheel
 #### Mixing Color: Paint, Print and Screen
