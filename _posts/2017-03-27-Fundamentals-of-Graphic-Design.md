@@ -2,7 +2,6 @@
 layout: post
 title:  "Fundamentals of Graphic Design"
 date:   2017-03-27 23:45:00 +1100
-categories: Graphic Design
 ---
 This is purely the notes of [Fundamentals of Graphic Design](https://www.coursera.org/learn/fundamentals-of-graphic-design/) provided by Coursera.
 

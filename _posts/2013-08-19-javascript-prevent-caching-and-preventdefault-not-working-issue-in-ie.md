@@ -16,8 +16,6 @@ wordpress_id: 243
 wordpress_url: http://lisalu.vm/?p=243
 date: '2013-08-19 21:21:58 +1000'
 date_gmt: '2013-08-19 11:21:58 +1000'
-categories:
-- CS
 tags:
 - JavaScript
 - IE

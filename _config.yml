@@ -37,6 +37,9 @@ limit_posts: 0
 future:      false
 unpublished: false
 
+# Outputting
+permalink:  none
+
 # Build settings
 markdown:    kramdown
 kramdown:

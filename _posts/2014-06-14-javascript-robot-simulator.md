@@ -11,8 +11,6 @@ wordpress_id: 389
 wordpress_url: http://lisalu.vm/?p=389
 date: '2014-06-14 16:31:30 +1000'
 date_gmt: '2014-06-14 06:31:30 +1000'
-categories:
-- CS
 tags: []
 comments: []
 ---

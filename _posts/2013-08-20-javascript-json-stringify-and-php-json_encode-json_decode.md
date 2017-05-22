@@ -7,8 +7,6 @@ wordpress_id: 250
 wordpress_url: http://lisalu.vm/?p=250
 date: '2013-08-20 21:43:42 +1000'
 date_gmt: '2013-08-20 11:43:42 +1000'
-categories:
-- CS
 tags:
 - JavaScript
 - PHP
