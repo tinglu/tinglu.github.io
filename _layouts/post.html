@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post">
+
+    <header class="post-header">
+        <small class="post-date">{{ page.date | date: '%Y %B %d' }}</small>
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <div>
+        <a class="more-link" href="/">Back to home</a>
+    </div>
+
+</article>

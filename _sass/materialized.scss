@@ -1,0 +1,88 @@
+// Import from materialize-sass gem materialize.scss
+
+// Mixins
+@import "node_modules/materialize-css/sass/components/mixins";
+//@import "node_modules/materialize-css/sass/components/color";
+@import "override/color_override";
+
+// Variables;
+//@import "node_modules/materialize-css/sass/components/variables";
+@import "override/variables_override";
+
+// Reset
+@import "node_modules/materialize-css/sass/components/normalize";
+
+// components
+@import "node_modules/materialize-css/sass/components/global";
+//@import "node_modules/materialize-css/sass/components/badges";
+@import "node_modules/materialize-css/sass/components/icons-material-design";
+@import "node_modules/materialize-css/sass/components/grid";
+@import "node_modules/materialize-css/sass/components/navbar";
+//@import "node_modules/materialize-css/sass/components/roboto";
+@import "node_modules/materialize-css/sass/components/typography";
+@import "node_modules/materialize-css/sass/components/transitions";
+@import "node_modules/materialize-css/sass/components/cards";
+//@import "node_modules/materialize-css/sass/components/toast";
+//@import "node_modules/materialize-css/sass/components/tabs";
+@import "node_modules/materialize-css/sass/components/tooltip";
+@import "node_modules/materialize-css/sass/components/buttons";
+//@import "node_modules/materialize-css/sass/components/dropdown";
+@import "node_modules/materialize-css/sass/components/waves";
+//@import "node_modules/materialize-css/sass/components/modal";
+//@import "node_modules/materialize-css/sass/components/collapsible";
+//@import "node_modules/materialize-css/sass/components/chips";
+//@import "node_modules/materialize-css/sass/components/materialbox";
+//@import "node_modules/materialize-css/sass/components/forms/forms";
+//@import "node_modules/materialize-css/sass/components/table_of_contents";
+@import "node_modules/materialize-css/sass/components/sideNav";
+//@import "node_modules/materialize-css/sass/components/preloader";
+//@import "node_modules/materialize-css/sass/components/slider";
+//@import "node_modules/materialize-css/sass/components/carousel";
+@import "node_modules/materialize-css/sass/components/tapTarget";
+//@import "node_modules/materialize-css/sass/components/pulse";
+//@import "node_modules/materialize-css/sass/components/date_picker/default";
+//@import "node_modules/materialize-css/sass/components/date_picker/default.date";
+//@import "node_modules/materialize-css/sass/components/date_picker/default.time";
+
+
+// Define defaults for each variable.
+
+$base-heading-font-family: 'Comfortaa', cursive !default;
+$base-body-font-family: 'Open Sans', sans-serif !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$body-font-weight-bold: 600 !default;
+$heading-font-weight-bold: 700 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$heading-color:    #000000 !default;
+$text-color:       #2b2b2b !default;
+$background-color: #ffffff !default;
+
+$grey-color:       #999 !default;
+$grey-color-light: lighten($grey-color, 5%) !default;
+$grey-color-dark:  darken($grey-color, 10%) !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Import vendors
+@import "vendor/github";
+
+// Import partials.
+@import "materialized/base",
+"materialized/layout"
+;

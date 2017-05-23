@@ -1,0 +1,194 @@
+/**
+ * Site header
+ */
+.site-header {
+  min-height: 56px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  font-family: $base-heading-font-family;
+  font-size: 26px;
+  font-weight: $base-font-weight;
+  line-height: inherit;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  float: left;
+  color: white;
+
+  @media #{$small-and-down} {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  &,
+  &:hover {
+    text-decoration: none;
+  }
+
+  &,
+  &:visited {
+    color: white;
+  }
+}
+
+nav .nav-wrapper i {
+  line-height: inherit !important;
+  font-size: 2rem;
+
+  @media #{$small-and-down} {
+    font-size: 1rem;
+  }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  padding: $spacing-unit 0;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+
+  li {
+    display: block;
+  }
+}
+
+.social-media-list {
+  li a {
+    @media #{$small-and-down} {
+      padding-right: 0;
+      padding-left: 1rem;
+    }
+  }
+}
+
+.footer-col-wrapper {
+  font-size: 12px;
+  color: $grey-color;
+  letter-spacing: .6px;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+}
+
+.tagline {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+}
+
+.page-heading {
+  font-size: 20px;
+}
+
+.post-list {
+  margin-bottom: 2rem;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+  color: $heading-color;
+
+  &:hover {
+    color: $link-color;
+  }
+}
+
+.divider {
+  margin-bottom: 2rem;
+}
+
+.more-link {
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-date {
+  letter-spacing: 1px;
+  color: $grey-color-dark;
+}
+
+.post-title {
+  font-size: 42px;
+
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    font-size: 28px;
+
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+  }
+
+  h3 {
+    font-size: 22px;
+
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+
+  h4 {
+    font-size: 18px;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+
+  img {
+    max-width: 300px;
+    margin: 1rem auto;
+    display: block;
+  }
+}

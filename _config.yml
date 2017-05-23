@@ -55,7 +55,7 @@ kramdown:
 #        line_numbers: true
 #        start_line: 1
 highlighter: rouge
-theme: materialized-jekyll
+#theme: materialized-jekyll
 gems:
   - jekyll-feed
 exclude:

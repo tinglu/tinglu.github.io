@@ -4,3 +4,7 @@ _site
 .jekyll-metadata
 
 .idea
+
+_sass/node_modules/*
+!_sass/node_modules/jquery
+!_sass/node_modules/materialize-css

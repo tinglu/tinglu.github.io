@@ -1,0 +1,27 @@
+{
+  "name": "materialized-jekyll",
+  "version": "0.1.4",
+  "description": "This is a Jekyll theme built on top of minima and inspired by materialize-sass.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tinglu/materialized-jekyll.git"
+  },
+  "keywords": [
+    "materilize",
+    "jekyll",
+    "theme"
+  ],
+  "author": "tinglu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinglu/materialized-jekyll/issues"
+  },
+  "homepage": "https://github.com/tinglu/materialized-jekyll#readme",
+  "dependencies": {
+    "materialize-css": "^0.98.2"
+  }
+}

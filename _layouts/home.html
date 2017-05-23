@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h1 class="page-heading">Posts</h1>
+
+    {{ content }}
+
+    {% for post in site.posts %}
+    <article class="post-list">
+        <header>
+            <small class="post-date">{{ post.date | date: "%Y %-B %d" }}</small>
+
+            <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+        </header>
+        <div class="post-content">
+            {{ post.excerpt }}
+
+            <div class="right-align">
+                <a class="more-link" href="{{ post.url | relative_url }}">View more</a>
+            </div>
+        </div>
+
+    </article>
+    <div class="divider"></div>
+    {% endfor %}
+
+</div>
