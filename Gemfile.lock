@@ -21,6 +21,8 @@ GEM
       jekyll (>= 3.0.0)
     jekyll-feed (0.9.2)
       jekyll (~> 3.3)
+    jekyll-redirect-from (0.12.1)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -30,8 +32,6 @@ GEM
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    materialized-jekyll (0.1.4)
-      jekyll (~> 3.4)
     mercenary (0.3.6)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -50,7 +50,7 @@ DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-compose
   jekyll-feed (~> 0.6)
-  materialized-jekyll
+  jekyll-redirect-from
   tzinfo-data
 
 RUBY VERSION

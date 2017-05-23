@@ -3,15 +3,7 @@ layout: post
 status: publish
 published: true
 title: JavaScript prevent caching and preventDefault() not working issue in IE
-excerpt: "Monday means a brand new week starts and if you're lucky that the weather
-  is awesome then you'll tend to believe this week must be great. However, developers'
-  life sometimes is more like riding a roller coster. I'm not exaggerating here (ok
-  maybe a little bit) but this morning i just went through a nightmare which almost
-  drove me mad. I don't want to behave mean but I really want to advocate to kill
-  Internet Explorer by all means. It has brought me so much trouble ever since I started
-  spending more time on front-end development. It can be claimed that I am not a master
-  of JavaScript and CSS so that I always get stuck by some stupid problems. Every
-  time when I found out where the problem was, I felt like swearing to IE.\r\n"
+redirect_from: "/javascript-prevent-caching-and-preventdefault-not-working-issue-in-ie/"
 wordpress_id: 243
 wordpress_url: http://lisalu.vm/?p=243
 date: '2013-08-19 21:21:58 +1000'
