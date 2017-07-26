@@ -5,6 +5,8 @@ date:   2017-03-27 23:45:00 +1100
 ---
 This is purely the notes of [Fundamentals of Graphic Design](https://www.coursera.org/learn/fundamentals-of-graphic-design/) provided by Coursera.
 
+N.B. All the images below are screenshots from the course videos.
+
 Updates ongoing...
 
 ## I. Fundamentals of Imagemaking
