@@ -79,10 +79,10 @@ $on-laptop:        800px !default;
   }
 }
 
-// Import vendors
-@import "vendor/github";
-
 // Import partials.
 @import "materialized/base",
 "materialized/layout"
 ;
+
+// Import vendors
+@import "vendor/rouge_github";

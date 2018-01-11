@@ -40,14 +40,15 @@ future:      false
 unpublished: false
 
 # Outputting
-permalink:  none
+permalink:  pretty
 
 # Build settings
 markdown:    kramdown
 kramdown:
+    input:   GFM
     syntax_highlighter: rouge
 highlighter: rouge
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
 exclude:
