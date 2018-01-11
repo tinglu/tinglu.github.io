@@ -40,7 +40,7 @@ future:      false
 unpublished: false
 
 # Outputting
-permalink:  pretty
+permalink:  none
 
 # Build settings
 markdown:    kramdown
