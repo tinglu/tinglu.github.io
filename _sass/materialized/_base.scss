@@ -24,7 +24,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font: $heading-font-weight-bold #{$base-font-size}/#{$base-line-height} $base-heading-font-family;
+  line-height: 1.1;
+}
+
+h1, h2 {
+  // font-size: #{$base-font-size}/#{$base-line-height};
+  font-family: $base-heading-font-family;
+  font-weight: $heading-font-weight-bold;
+}
+
+h3, h4, h5, h6 {
+  font-family: $base-body-font-family;
+  font-weight: $heading-font-weight-bold;
 }
 
 /**
@@ -127,6 +138,18 @@ pre > code {
 
 .highlight {
   overflow-x: auto;
+}
+
+// code fixing
+
+code.highlighter-rouge {
+  background-color: #f8f8f8;
+}
+
+code.highlighter-rouge {
+  padding: 2px 6px;
+  overflow: auto;
+  background: rgba(144,202,249, 0.3);
 }
 
 /**

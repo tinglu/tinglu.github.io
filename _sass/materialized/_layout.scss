@@ -49,6 +49,7 @@ nav .nav-wrapper i {
  */
 .site-footer {
   padding: $spacing-unit 0;
+  border-top: 1px solid color('grey', 'lighten-2');
 }
 
 .footer-heading {
@@ -98,7 +99,7 @@ nav .nav-wrapper i {
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding: $spacing-unit * 2 0;
 }
 
 .page-heading {
@@ -133,6 +134,10 @@ nav .nav-wrapper i {
   margin-bottom: 2rem;
 }
 
+.home > article.post-list:nth-last-of-type(1) + .divider {
+  display: none;
+}
+
 .more-link {
   letter-spacing: 1px;
   font-size: 12px;
@@ -147,26 +152,37 @@ nav .nav-wrapper i {
 }
 
 .post-date {
+  padding: 6px 0;
+  display: block;
   letter-spacing: 1px;
   color: $grey-color-dark;
 }
 
 .post-title {
-  font-size: 42px;
+  margin-bottom: $spacing-unit * 2;
+  font-size: 36px;
 
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
 
+  h1 {
+    font-size: 36px;
+
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+  }
+
   h2 {
     font-size: 28px;
 
     @include media-query($on-laptop) {
-      font-size: 28px;
+      font-size: 22px;
     }
   }
 
@@ -174,7 +190,7 @@ nav .nav-wrapper i {
     font-size: 22px;
 
     @include media-query($on-laptop) {
-      font-size: 22px;
+      font-size: 20px;
     }
   }
 
@@ -182,8 +198,12 @@ nav .nav-wrapper i {
     font-size: 18px;
 
     @include media-query($on-laptop) {
-      font-size: 18px;
+      font-size: 16px;
     }
+  }
+
+  a {
+    text-decoration: underline;
   }
 
   img {

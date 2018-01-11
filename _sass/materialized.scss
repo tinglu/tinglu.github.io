@@ -52,13 +52,13 @@ $base-body-font-family: 'Open Sans', sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $body-font-weight-bold: 600 !default;
-$heading-font-weight-bold: 700 !default;
+$heading-font-weight-bold: 600;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$heading-color:    #000000 !default;
+$heading-color:    #333;
 $text-color:       #2b2b2b !default;
 $background-color: #ffffff !default;
 
@@ -80,9 +80,8 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
-@import "materialized/base",
-"materialized/layout"
-;
+@import "materialized/base";
+@import "materialized/layout";
 
 // Import vendors
 @import "vendor/rouge_github";
