@@ -8,7 +8,7 @@ offered by Stanford Online Course.
 
 ## W1: Finite Automata
 
-`Automaton`: 自动机
+`Automaton` - 自动机
 
     The set of strings accepted by an automaton A is the language of A.
     Denoted L(A).
@@ -40,15 +40,14 @@ represent symbol/character whilest doule quotes "0" to represent the string.
 e.g. The set of strings of 0’s and 1’s with no two consecutive 1’s.
 L = {ε, 0, 1, 00, 01, 10, 000, 001, 010, 100, 101, 0000, 0001, 0010, 0100, 0101, 1000, 1001, 1010, . . . }
 
-A formalism for defining languages, consisting of:
+A `formalism` for defining languages, consisting of:
 
-* A finite set of states  (`Q`, typically).
-* An input alphabet  (`Σ`, typically).
-* A transition function  (`δ`, typically).
-* A start state  (`q<sub>0</sub>`, in Q, typically).
-* A set of final states  (`F ⊆ Q`, typically).
-
-    “Final” and “accepting” are synonyms.
+* A finite set of states  (Q, typically).
+* An input alphabet  (Σ, typically).
+* A transition function  (δ, typically).
+* A start state ({% raw %}$$q_{0}$${% endraw %}, in Q, typically).
+* A set of final states  (F ⊆ Q, typically).
+* "Final" and "accepting" are synonyms.
 
 `Transition Function` - takes two arguments: a state & an input symbol
 
@@ -77,7 +76,7 @@ A formalism for defining languages, consisting of:
     * … w, x, y, z are strings;
     * a, b, c, … are single input symbols.
 
-> `Language of a DFA`:
+> Language of a DFA:
 >
 > - Automata of all kinds define languages.
 > - If A is an automaton, L(A) is its language.
@@ -88,20 +87,22 @@ Example:
 
 ![Point size]({{ site.url }}/assets/automata/string101.png)
 
-The language of this example DFA is: `{w | w is in {0,1}* and w does not have two consecutive 1’s}`
+The language of this example DFA is: 
+{w |  w is in {0,1}* and w does not have two consecutive 1’s}   
 
 `w` read a set former as 'The set of strings w…'; `|` read as such that; the rest are conditions about w and are true.
 
-`Proofs of Set Equivalence`:
+#### Proofs of Set Equivalence
 
 > The theorem: the reverse of a regular language is also regular.
 
 ### Nondeterministic Finite Automata (NFA)
 
-`Nondeterministic finite automaton` has the ability to be in several states at once. 
+Nondeterministic finite automaton has the ability to be in several states at once. 
 Transitions from a state on an input symbol can be to any set of states.
 
-> `Language of an NFA`:
+> Language of an NFA:
+>
 > - A string w is accepted by an NFA if δ(q0, w) contains at least one final state.
 > - The language of the NFA is the set of strings it accepts.
 
@@ -116,12 +117,13 @@ construct equivalent DFA with:
 * Final states = all those with a member of F.
 
 The transition function δ<sub>D</sub> is defined by:
-`δ<sub>D</sub>({q<sub>1</sub>,…,q<sub>k</sub>}, a) is the union over all i = 1,…,k  of δ<sub>N</sub>(q<sub>i</sub>, a)`.
+*δ<sub>D</sub>({q<sub>1</sub>,…,q<sub>k</sub>}, a) is the union over all i = 1,…,k  of δ<sub>N</sub>(q<sub>i</sub>, a)*.
 
-`Proofs of Set Equivalence`:
+#### Proofs of Set Equivalence
 
 * The proof is almost a pun.
-* Show by induction on |w| that δ<sub>N</sub>(q<sub>0</sub>, w) = δ<sub>D</sub>({q<sub>0</sub>}, w)
+* Show by induction on |w| 
+that δ<sub>N</sub>(q<sub>0</sub>, w) = δ<sub>D</sub>({q<sub>0</sub>}, w)
 * Basis: w = ε: δ<sub>N</sub>(q<sub>0</sub>, ε) = δ<sub>D</sub>({q<sub>0</sub>}, ε) = {q<sub>0</sub>}.
 
 ### NFA’s With ε-Transitions
@@ -138,10 +140,10 @@ Closure of a set of states = union of the closure of each state.
 
 ### Extended Delta
 
-* Intuition:   $\hatδ$(q, w) is the set of states you can reach from q following a path labeled w.
-* Basis:   $\hatδ$(q, ε) = CL(q).
-* Induction:   $\hatδ$(q, xa) is computed by:
-    * Start with   $\hatδ$(q, x) = S.
+* Intuition:   {% raw %}$$\hatδ(q, w)$${% endraw %} is the set of states you can reach from q following a path labeled w.
+* Basis:   {% raw %}$$\hatδ(q, ε) = CL(q)$${% endraw %}.
+* Induction:   {% raw %}$$\hatδ(q, xa)$${% endraw %} is computed by:
+    * Start with   {% raw %}$$\hatδ(q, x) = S$${% endraw %}.
     * Take the union of CL(δ(p, a)) for all p in S.
     
 ### Summary

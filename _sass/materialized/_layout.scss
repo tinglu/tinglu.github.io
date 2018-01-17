@@ -170,27 +170,34 @@ nav .nav-wrapper i {
 .post-content {
   margin-bottom: $spacing-unit * 2;
 
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
   h1 {
     font-size: 36px;
 
     @include media-query($on-laptop) {
-      font-size: 28px;
+      font-size: 30px;
     }
   }
 
   h2 {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaecef;
     font-size: 28px;
 
     @include media-query($on-laptop) {
-      font-size: 22px;
+      font-size: 26px;
     }
   }
 
   h3 {
-    font-size: 22px;
+    font-size: 24px;
 
     @include media-query($on-laptop) {
-      font-size: 20px;
+      font-size: 22px;
     }
   }
 
@@ -198,12 +205,8 @@ nav .nav-wrapper i {
     font-size: 18px;
 
     @include media-query($on-laptop) {
-      font-size: 16px;
+      font-size: 18px;
     }
-  }
-
-  a {
-    text-decoration: underline;
   }
 
   img {
