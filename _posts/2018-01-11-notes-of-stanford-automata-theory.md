@@ -86,7 +86,7 @@ A formalism for defining languages, consisting of:
 
 Example:
 
-![Point size]({{ site.url }}/assets/design/graphic_design/point_size.png)
+![Point size]({{ site.url }}/assets/automata/string101.png)
 
 The language of this example DFA is: `{w | w is in {0,1}* and w does not have two consecutive 1’s}`
 
