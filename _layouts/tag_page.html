@@ -26,9 +26,9 @@ layout: default
     <h2>Archive</h2>
 
     {% assign t_cloud = site.tags | sort %}
-    {% for tag in t_cloud %}
-    <a href="/tag/{{ tag | first | slugify }}/" class="chip btn">
-        {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+    {% for t in t_cloud %}
+    <a href="/tag/{{ t | first | slugify }}/" class="chip btn">
+        {{ t[0] | replace:'-', ' ' }} ({{ t | last | size }})
     </a>
     {% endfor %}
 </div>
