@@ -8,14 +8,23 @@ layout: default
     </header>
 
     <div class="post-content">
-        <ul>
-            {% for post in site.tags[page.tag] %}
-            <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-                <small class="post-date">({{ post.date | date: '%Y %B %d' }})</small>
-            </li>
-            {% endfor %}
-        </ul>
+        {% for post in site.tags[page.tag] %}
+        <article class="post-list">
+            <header>
+                <small class="post-date">{{ post.date | date: "%Y %-B %d" }}</small>
+                <h2>
+                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h2>
+            </header>
+            <div class="post-content">
+                {{ post.excerpt }}
+
+                <div class="right-align">
+                    <a class="more-link" href="{{ post.url | relative_url }}">View more</a>
+                </div>
+            </div>
+        </article>
+        {% endfor %}
     </div>
 
 </article>
