@@ -3,14 +3,11 @@ layout: post
 status: publish
 published: true
 title: Input box text vertical align problem in IE8
-redirect_from: "/input-box-text-vertical-align-problem-in-ie8/"
 wordpress_id: 207
 wordpress_url: http://lisalu.vm/?p=207
 date: '2013-04-04 20:32:18 +1100'
 date_gmt: '2013-04-04 10:32:18 +1100'
-tags:
-- IE
-- CSS
+tags: IE CSS
 comments:
 - id: 48
   author: David

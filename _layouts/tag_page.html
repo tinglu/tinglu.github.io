@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post">
+
+    <header class="post-header">
+        <h1 class="">Tag: <span class="tag chip btn disabled">{{ page.tag | escape }}</span></h1>
+    </header>
+
+    <div class="post-content">
+            <ul>
+                {% for post in site.tags[page.tag] %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a> <small class="post-date">({{ post.date | date: '%Y %B %d' }})</small>
+                </li>
+                {% endfor %}
+            </ul>
+    </div>
+
+</article>
+
+<div class="divider"></div>
+
+<div class="tag-cloud center-align">
+    <h2>Archive</h2>
+    {{ site | tag_cloud }}
+</div>

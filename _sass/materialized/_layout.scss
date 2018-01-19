@@ -81,6 +81,7 @@ nav .nav-wrapper i {
   color: $grey-color;
   letter-spacing: .6px;
   margin-left: -$spacing-unit / 2;
+  text-align: center;
   @extend %clearfix;
 }
 
@@ -148,22 +149,38 @@ nav .nav-wrapper i {
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit * 2;
 }
 
 .post-date {
+  display: inline-block;
   padding: 6px 0;
-  display: block;
   letter-spacing: 1px;
   color: $grey-color-dark;
 }
 
-.post-title {
-  margin-bottom: $spacing-unit * 2;
-  font-size: 36px;
+.post-tag {
+  padding: 6px 0;
+  letter-spacing: 1px;
+  float: right;
 
-  @include media-query($on-laptop) {
-    font-size: 28px;
+  @media #{$small-and-down} {
+    display: block;
+    float: none;
+  }
+
+  > a {
+    display: inline-block;
+
+    &:after {
+      content: ',';
+    }
+
+    &:nth-last-of-type(1) {
+      &:after {
+        content: '';
+      }
+    }
   }
 }
 
@@ -175,38 +192,9 @@ nav .nav-wrapper i {
     margin-bottom: 16px;
   }
 
-  h1 {
-    font-size: 36px;
-
-    @include media-query($on-laptop) {
-      font-size: 30px;
-    }
-  }
-
   h2 {
     padding-bottom: 0.3em;
     border-bottom: 1px solid #eaecef;
-    font-size: 28px;
-
-    @include media-query($on-laptop) {
-      font-size: 26px;
-    }
-  }
-
-  h3 {
-    font-size: 24px;
-
-    @include media-query($on-laptop) {
-      font-size: 22px;
-    }
-  }
-
-  h4 {
-    font-size: 18px;
-
-    @include media-query($on-laptop) {
-      font-size: 18px;
-    }
   }
 
   img {
@@ -214,4 +202,14 @@ nav .nav-wrapper i {
     margin: 1rem auto;
     display: block;
   }
+}
+
+.tag-cloud > a {
+  @extend .chip;
+  @extend .btn;
+}
+
+.tag-cloud > a,
+.tag.chip {
+  text-transform: lowercase;
 }

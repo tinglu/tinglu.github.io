@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Fundamentals of Graphic Design"
+title:  Fundamentals of Graphic Design By CalArts
 date:   2017-03-27 23:45:00 +1100
+tags: notes design
 ---
-This is purely the notes of [Fundamentals of Graphic Design](https://www.coursera.org/learn/fundamentals-of-graphic-design/) provided by Coursera.
+This is my study notes of [Fundamentals of Graphic Design](https://www.coursera.org/learn/fundamentals-of-graphic-design/) provided by Coursera.
 
 N.B. All the images below are screenshots from the course videos.
 

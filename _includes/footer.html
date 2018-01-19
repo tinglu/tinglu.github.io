@@ -3,10 +3,12 @@
   <div class="container">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col">
+      <div class="">
         <p class="tagline">{{ site.description | escape }}</p>
 
         <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+        <p>View <a href="{{ "/tag" }}">Archives</a></p>
 
         <ul class="contact-list">
           {% if site.email %}
@@ -17,7 +19,7 @@
     </div>
 
     <div class="footer-col-wrapper">
-      <div class="footer-col">
+      <div class="">
         Copyright © {{ 'now' | date: "%Y" }} {{ site.title | escape }}. All Rights Reserved. |
         Theme by <a href="https://github.com/tinglu/materialized-jekyll">Materialized Jekyll</a> developed by <a href="https://github.com/tinglu">TING LU</a>
       </div>

@@ -3,14 +3,11 @@ layout: post
 status: publish
 published: true
 title: JavaScript prevent caching and preventDefault() not working issue in IE
-redirect_from: "/javascript-prevent-caching-and-preventdefault-not-working-issue-in-ie/"
 wordpress_id: 243
 wordpress_url: http://lisalu.vm/?p=243
 date: '2013-08-19 21:21:58 +1000'
 date_gmt: '2013-08-19 11:21:58 +1000'
-tags:
-- JavaScript
-- IE
+tags: javascript IE
 comments: []
 ---
 Weeks ago, I incorporated Bootstrap popover function into one of my Facebook apps. 

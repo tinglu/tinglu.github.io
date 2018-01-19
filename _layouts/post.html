@@ -5,6 +5,12 @@ layout: default
 
     <header class="post-header">
         <small class="post-date">{{ page.date | date: '%Y %B %d' }}</small>
+        <small class="post-tag">
+            {% for tag in page.tags %}
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+            <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+            {% endfor %}
+        </small>
         <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
 

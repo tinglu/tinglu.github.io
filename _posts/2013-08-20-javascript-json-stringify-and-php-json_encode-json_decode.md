@@ -3,14 +3,11 @@ layout: post
 status: publish
 published: true
 title: JavaScript JSON.stringify and PHP json_encode json_decode
-redirect_from: "/javascript-json-stringify-and-php-json_encode-json_decode/"
 wordpress_id: 250
 wordpress_url: http://lisalu.vm/?p=250
 date: '2013-08-20 21:43:42 +1000'
 date_gmt: '2013-08-20 11:43:42 +1000'
-tags:
-- JavaScript
-- PHP
+tags: javascript php
 comments: []
 ---
 I used Ajax call quite a lot recently and thought that knowing how to process JavaScript array and PHP arrays as JSON string is really handy.

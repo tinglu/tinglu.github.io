@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Notes of Stanford Automata Theory
+title: Automata Theory By Stanford
+tags: notes automata
 ---
 
-This is my study summary of [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/info) 
-offered by Stanford Online Course.
+This is my study notes of [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/info) 
+offered by Jeff Ullman at Stanford Online in the theory of automata and languages.
 
 ## W1: Finite Automata
 

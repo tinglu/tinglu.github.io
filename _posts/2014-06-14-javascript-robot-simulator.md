@@ -3,7 +3,6 @@ layout: post
 status: publish
 published: true
 title: JavaScript Robot Simulator (Updated)
-redirect_from: "/javascript-robot-simulator/"
 excerpt: "*Updated in July 2015* This is a JavaScript robot simulator using HTML5 Canvas that moves&nbsp;around a square table top. 
 The robot is free to roam the table, but must be prevented from falling to destruction. 
 Any movement that would result in the robot falling from the table must be prevented."
@@ -11,7 +10,7 @@ wordpress_id: 389
 wordpress_url: http://lisalu.vm/?p=389
 date: '2014-06-14 16:31:30 +1000'
 date_gmt: '2014-06-14 06:31:30 +1000'
-tags: []
+tags: javascript
 comments: []
 ---
 *Updated in July 2015*
