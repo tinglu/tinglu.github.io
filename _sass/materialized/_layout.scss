@@ -204,11 +204,6 @@ nav .nav-wrapper i {
   }
 }
 
-.tag-cloud > a {
-  @extend .chip;
-  @extend .btn;
-}
-
 .tag-cloud > a,
 .tag.chip {
   text-transform: lowercase;

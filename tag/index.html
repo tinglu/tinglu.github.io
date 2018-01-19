@@ -6,5 +6,11 @@ title: Tag
 
 <div class="tag-cloud center-align">
     <h1>Archive</h1>
-    {{ site | tag_cloud }}
+
+    {% assign t_cloud = site.tags | sort %}
+    {% for tag in t_cloud %}
+    <a href="/tag/{{ tag | first | slugify }}/" class="chip btn">
+        {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+    </a>
+    {% endfor %}
 </div>

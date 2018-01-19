@@ -8,13 +8,14 @@ layout: default
     </header>
 
     <div class="post-content">
-            <ul>
-                {% for post in site.tags[page.tag] %}
-                <li>
-                    <a href="{{ post.url }}">{{ post.title }}</a> <small class="post-date">({{ post.date | date: '%Y %B %d' }})</small>
-                </li>
-                {% endfor %}
-            </ul>
+        <ul>
+            {% for post in site.tags[page.tag] %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <small class="post-date">({{ post.date | date: '%Y %B %d' }})</small>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 
 </article>
@@ -23,5 +24,11 @@ layout: default
 
 <div class="tag-cloud center-align">
     <h2>Archive</h2>
-    {{ site | tag_cloud }}
+
+    {% assign t_cloud = site.tags | sort %}
+    {% for tag in t_cloud %}
+    <a href="/tag/{{ tag | first | slugify }}/" class="chip btn">
+        {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+    </a>
+    {% endfor %}
 </div>
