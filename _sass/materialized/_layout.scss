@@ -193,6 +193,7 @@ nav .nav-wrapper i {
   }
 
   h2 {
+    margin-top: 2em;
     padding-bottom: 0.3em;
     border-bottom: 1px solid #eaecef;
   }
@@ -207,4 +208,8 @@ nav .nav-wrapper i {
 .tag-cloud > a,
 .tag.chip {
   text-transform: lowercase;
+}
+
+.mjx-chtml {
+  font-size: 100% !important;
 }

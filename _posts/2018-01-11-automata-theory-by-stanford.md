@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Automata Theory By Stanford
+date: 2018-01-11 12:16:00 +1100
 tags: notes automata
 ---
 
@@ -86,7 +87,7 @@ A `formalism` for defining languages, consisting of:
 
 Example:
 
-![Point size]({{ site.url }}/assets/automata/string101.png)
+![String 101]({{ site.url }}/assets/automata/string101.png)
 
 The language of this example DFA is: 
 {w |  w is in {0,1}* and w does not have two consecutive 1’s}   
@@ -152,3 +153,113 @@ Closure of a set of states = union of the closure of each state.
 * DFA’s, NFA’s, and ε–NFA’s all accept exactly the same set of languages: the `regular languages`.
 * The `NFA` types are *easier* to design and may have exponentially fewer states than a DFA.
 * But *only* a `DFA` can be *implemented*!
+
+## W2: Regular Expressions & Regular Languages
+
+RE's use three operations:
+* union (like addition, is commutative and associative)
+* concatenation (like multiplication, is associative)
+* Kleene star
+
+### k-Paths
+
+* A `k-path` is a path through the graph of the DFA that goes through no state numbered higher than k.
+* Endpoints are not restricted; they can be any state.
+* n-paths are unrestricted.
+* RE is the union of RE’s for  the n-paths from the start state to each final state.
+
+#### k-Path Induction
+
+> Let {% raw %}$$R_{ij}^{k}$${% endraw %} be the regular expression for the set of labels of k-paths from state i to state j.
+> 
+> Basis: k=0. {% raw %}$$R_{ij}^{0}$${% endraw %} = sum of labels of arc from i to j.
+>  * ∅ if no such arc.
+>  * But add ε if i=j.
+
+Example:
+
+![k-path]({{ site.url }}/assets/automata/k-path.png){:width="150"}
+
+* 0-paths from 2 to 3: RE for labels = 0.
+* 1-paths from 2 to 3: RE for labels = 0+11.
+* 2-paths from 2 to 3: RE for labels = (10)*0+1(01)*1
+* 3-paths from 2 to 3: RE for labels = ??
+
+#### k-Path Inductive Case
+
+A k-path from i to j either:
+* Never goes through state k, or
+* Goes through k one or more times.
+
+> {% raw %}$$R_{ij}^{k}$${% endraw %} = {% raw %}$$R_{ij}^{k-1}$${% endraw %} + {% raw %}$$R_{ik}^{k-1}$${% endraw %}({% raw %}$$R_{kk}^{k-1}$${% endraw %})* {% raw %}$$R_{kj}^{k-1}$${% endraw %}.
+
+Apply to the above example: {% raw %}$$R_{23}^{3} = R_{23}^{2} + R_{23}^{2}(R_{33}^{2})^{*}R_{33}^{2} = R_{23}^{2}(R_{33}^{2})^{*}$${% endraw %}
+
+Substitute {% raw %}$$R_{23}^{2} = (10)^{*}0+1(01)^{*}1$${% endraw %} 
+and {% raw %}$$R_{33}^{2} = ε + 0(01)^{*}(1+00) + 1(10)^{*}(0+11)$${% endraw %} 
+
+so that {% raw %}$$R_{23}^{3} = [(10)^{*}0+1(01)^{*}1] [ε + (0(01)^{*}(1+00) + 1(10)^{*}(0+11))]^{*}$$ {% endraw %}
+
+#### Regular Languages Representation Conversions
+
+![representation conversion]({{ site.url }}/assets/automata/representation-conversion.png){:width="200"}
+
+Each of the three types of automata (DFA, NFA, ε-NFA) and regular expressions define exactly the same set of languages: 
+the regular languages.
+Any NFA could be converted to DFA that's the subset construction. 
+Any x one NFA could be converted to an ordinary NFA that was the closure construction. 
+Any regular expression can be converted to an ε-NFA.
+Every DFA can be converted to a regular expression.
+Any language defined by any one of these four notations is defined by all the others.
+
+#### Identities and Annihilators
+
+* ∅ is the identity for union. R + ∅ = R.
+* ε is the identity for concatenation. εR = Rε = R.
+* ∅ is the annihilator for concatenation. ∅R = R∅ = ∅.
+
+### Applications of Regular Expressions
+
+**Unix**, from the beginning, used regular expressions in many places, including the “grep” command
+(“Global (search for a) Regular Expression and Print”).
+
+One example is **Text Processing**. The DFA example for recognizing strings that end in “ing” involves a lot of explanation,
+as it should consider where to go from each of the states that represented some progress toward finding “ing”.
+However, there is an easy regular expression for this same language.
+Using the UNIX dot, it is just dot-star-i-n-g.  Or even if not have the dot, we could simply replace it by all the 
+legal input symbols connected by pluses.
+In fact, it is even much easier to design an NFA for this language than it is to design a DFA.
+
+Another example is **Lexical Analysis**. The first thing a compiler does is break a program into tokens (substrings) 
+that together represent a unit.
+
+### Properties of Regular Languages
+
+A `language class` is a set of languages, e.g. the regular languages.
+Language classes have two important kinds of properties:
+
+#### 1. Closure Property
+
+A `closure property` of a language class says that given languages in the class, an operation (e.g., union) produces 
+another language in the same class, e.g. the regular languages are obviously closed under union, concatenation, and 
+(Kleene) closure.
+
+#### 2. Decision Property
+
+A `decision property` for a class of languages is an algorithm that takes a formal description of a language 
+(e.g., a DFA) and tells whether or not some property holds, e.g. Is language L empty?
+
+#### Pumping Lemma
+
+`Pumping Lemma` (泵引理) statement:
+
+> For every regular language L, there is an integer n, which happens to be the number of states of some DFA for L, 
+> such that for every string w in L whose length is at least n. 
+
+We can break w into **w=xyz**, where y is the label of the first substring of w that goes from a state to the same state, 
+such that three things are true:
+First, **|xy| < n**, the prefix xy of w is short – it is of length at most n.
+We assure that by making y be the label of the first cycle we encounter.
+Second, **|y| > 0**, y is not the empty string. 
+We assured this, because y connects two different occurrences of the same state along the path of w.
+And lastly, **for all i > 0, xyiz is in L**, xyiz is in L for all integers i.
