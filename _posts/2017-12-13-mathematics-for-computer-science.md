@@ -5,8 +5,9 @@ date: 2017-12-13 16:49:00 +1100
 tags: notes mathematics
 ---
 
-This is my study notes of [MIT6.042J Mathematics for Computer Science]() 
-offered by Jeff Ullman at Stanford Online in the theory of automata and languages.
+This is my study notes of [MIT6.042J Mathematics for Computer Science](http://ocw.abu.edu.ng/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm) 
+offered by MIT OCW. The course covers elementary discrete mathematics for computer science and engineering. 
+It emphasizes mathematical definitions and proofs as well as applicable methods.
 
 ## 1.1 Intro to proofs
 
