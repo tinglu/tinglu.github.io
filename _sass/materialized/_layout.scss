@@ -135,7 +135,7 @@ nav .nav-wrapper i {
   margin-bottom: 2rem;
 }
 
-.home > article.post-list:nth-last-of-type(1) + .divider {
+.post-lists > article.post-list:nth-last-of-type(1) + .divider {
   display: none;
 }
 
@@ -203,6 +203,10 @@ nav .nav-wrapper i {
     margin: 1rem auto;
     display: block;
   }
+}
+
+.post-lists + .tag-cloud {
+  margin: 8em 0 4em;
 }
 
 .tag-cloud > a,

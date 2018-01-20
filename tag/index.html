@@ -4,13 +4,16 @@ permalink: /tag/
 title: Tag
 ---
 
-<div class="tag-cloud center-align">
-    <h1>Archive</h1>
+<div class="tag-cloud center-align row">
 
-    {% assign t_cloud = site.tags | sort %}
-    {% for t in t_cloud %}
-    <a href="/tag/{{ t | first | slugify }}" class="chip btn">
-        {{ t[0] | replace:'-', ' ' }} ({{ t | last | size }})
-    </a>
-    {% endfor %}
+    <div class="col s12 m10 l8 push-m1 push-l2">
+        <h1>Archive</h1>
+
+        {% assign t_cloud = site.tags | sort %}
+        {% for t in t_cloud %}
+        <a href="/tag/{{ t | first | slugify }}" class="chip btn">
+            {{ t[0] | replace:'-', ' ' }} ({{ t | last | size }})
+        </a>
+        {% endfor %}
+    </div>
 </div>

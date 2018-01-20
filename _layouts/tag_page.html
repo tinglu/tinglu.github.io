@@ -1,43 +1,44 @@
 ---
 layout: default
 ---
-<article class="post">
 
-    <header class="post-header">
+<div class="post-lists">
+    <header class="post-header center-align">
         <h1 class="">Tag: <span class="tag chip btn disabled">{{ page.tag | escape }}</span></h1>
     </header>
 
-    <div class="post-content">
-        {% for post in site.tags[page.tag] %}
-        <article class="post-list">
-            <header>
-                <small class="post-date">{{ post.date | date: "%Y %-B %d" }}</small>
-                <h2>
-                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h2>
-            </header>
-            <div class="post-content">
-                {{ post.excerpt }}
+    {% for post in site.tags[page.tag] %}
+    <article class="post-list">
+        <header>
+            <small class="post-date">{{ post.date | date: "%Y %-B %d" }}</small>
+            <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+        </header>
+        <div class="post-content">
+            {{ post.excerpt }}
 
-                <div class="right-align">
-                    <a class="more-link" href="{{ post.url | relative_url }}">View more</a>
-                </div>
+            <div class="right-align">
+                <a class="more-link" href="{{ post.url | relative_url }}">View more</a>
             </div>
-        </article>
+        </div>
+    </article>
+    <div class="divider"></div>
+    {% endfor %}
+</div>
+
+<div class="tag-cloud center-align row">
+
+    <div class="divider"></div>
+
+    <div class="col s12 m10 l8 push-m1 push-l2">
+        <h2>Archive</h2>
+
+        {% assign t_cloud = site.tags | sort %}
+        {% for t in t_cloud %}
+        <a href="/tag/{{ t | first | slugify }}" class="chip btn">
+            {{ t[0] | replace:'-', ' ' }} ({{ t | last | size }})
+        </a>
         {% endfor %}
     </div>
-
-</article>
-
-<div class="divider"></div>
-
-<div class="tag-cloud center-align">
-    <h2>Archive</h2>
-
-    {% assign t_cloud = site.tags | sort %}
-    {% for t in t_cloud %}
-    <a href="/tag/{{ t | first | slugify }}" class="chip btn">
-        {{ t[0] | replace:'-', ' ' }} ({{ t | last | size }})
-    </a>
-    {% endfor %}
 </div>
