@@ -7,6 +7,7 @@ tags: notes compilers
 
 This is my study notes of [CS143 Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/info) 
 offered by Stanford Online and the resources can also be found on the [web homepage](http://web.stanford.edu/class/cs143/).
+The notes below contain my summaries, lecture materials, and some assessments answers.
 
 ## Intro
 

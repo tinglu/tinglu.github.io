@@ -6,4 +6,4 @@ tags: notes knowledge machine-learning
 ---
 
 This is the summary of my study of COMP90049 Knowledge Technologies (SM2 2017).
-Some material below is from the lecture notes &copy; the University of Melbourne.
+The notes below contain my summaries and lecture materials (&copy; the University of Melbourne).

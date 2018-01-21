@@ -7,6 +7,7 @@ tags: notes automata
 
 This is my study notes of [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/info) 
 offered by Jeff Ullman at Stanford Online in the theory of automata and languages.
+The notes below contain my summaries and lecture materials.
 
 ## W1: Finite Automata
 
@@ -87,7 +88,7 @@ A `formalism` for defining languages, consisting of:
 
 Example:
 
-![String 101]({{ site.url }}/assets/automata/string101.png)
+![String 101]({{ site.url }}/assets/automata/string101.png){:width="300"}
 
 The language of this example DFA is: 
 {w |  w is in {0,1}* and w does not have two consecutive 1’s}   

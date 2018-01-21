@@ -6,16 +6,16 @@ tags: notes automata
 ---
 
 I'd like to study COMP30026 Models of Computation independently in my spare time.
-Below are my notes. Some material included is from the lecture notes &copy; the University of Melbourne.
+The notes below contain my summaries and lecture materials (&copy; the University of Melbourne).
 
 ## Why's
 
 ### Why study logic and discrete maths
 
 Logic and discrete mathematics provide the **theoretical foundations** for computer science.
-`Propositional logic` has applications in hardware and software verification, planning, testing and fault finding, ...
-`Predicate logic` is essential to artificial intelligence, computational linguistic, automated theorem proving, logic programming, ...
-`Algebra` underpins theories of databases, programming languages, program analysis, data mining, ...
+`Propositional logic` has applications in hardware and software verification, planning, testing and fault finding, etc.
+`Predicate logic` is essential to artificial intelligence, computational linguistic, automated theorem proving, logic programming, etc.
+`Algebra` underpins theories of databases, programming languages, program analysis, data mining, etc.
 
 ### Why study computability
 

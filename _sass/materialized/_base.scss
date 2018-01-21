@@ -211,3 +211,9 @@ ul:not(.browser-default), ol:not(.browser-default) {
 strong {
   font-weight: bold;
 }
+
+// Table
+table {
+  @extend .bordered;
+  @extend .responsive-table;
+}
