@@ -39,3 +39,22 @@ Computability is full of philosophically challenging ideas, and exciting (someti
 `decidability` - 可判定性
 
 `undecidability` - 不可判定性
+
+## Propositional logic
+
+
+### Syntax
+
+![propositional logic syntax]({{ site.url }}/assets/moc/propositional-logic-syntax.png){:width="300"}
+
+```
+	wff -> A|B|C|...|Z|f|t 
+		| (¬wff)
+		| (wff∧wff) 
+		| (wff∨wff) 
+		| (wff⇒wff) 
+		| (wff⇔wff) 
+		| (wff⊕wff) 
+```
+
+((P ∧(¬Q))⇒(P ∨(P ⇔Q))) is equivalent to P ∧ ¬Q ⇒ P ∨ (P ⇔ Q)
