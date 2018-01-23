@@ -8,7 +8,14 @@ wordpress_url: http://lisalu.vm/?p=207
 date: '2013-04-04 20:32:18 +1100'
 date_gmt: '2013-04-04 10:32:18 +1100'
 tags: IE css
-comments: true
+comments:
+- id: 48
+  author: David
+  author_email: dd60137@hotmail.com
+  author_url: ''
+  date: '2015-10-21 04:02:00 +1100'
+  date_gmt: '2015-10-20 18:02:00 +1100'
+  content: Thanks! Just the information I was looking for.
 ---
 In IE7 or IE8 you will find there are problems with CSS settings which work very well in other browsers.
 I've encountered the input box text vertical alignment issues recently in IE.
