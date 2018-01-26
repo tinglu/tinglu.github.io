@@ -7,6 +7,8 @@ tags: notes automata
 
 I'd like to study COMP30026 Models of Computation independently in my spare time.
 The notes below contain my summaries and lecture materials (&copy; the University of Melbourne).
+The book [Foundations of Computer Science](http://i.stanford.edu/~ullman/focs.html) is a good place to
+learn the fundamental theories.
 
 ## Why's
 
@@ -34,6 +36,9 @@ Computability is full of philosophically challenging ideas, and exciting (someti
 
 ## Propositional logic
 
+> Propositional logic is a mathematical model that allows us to reason about the
+> truth or falsehood of logical expressions [[...]](http://i.stanford.edu/~ullman/focs/ch12.pdf)
+  
 ### Syntax
 
 ![propositional logic syntax]({{ site.url }}/assets/moc/propositional-logic-syntax.png){:width="300"}
@@ -51,6 +56,18 @@ Computability is full of philosophically challenging ideas, and exciting (someti
 is equivalent to 
 P $$\wedge$$ $$\neg$$Q $$\Rightarrow$$ P $$\lor$$ (P $$\Leftrightarrow$$ Q)
 {% endraw %}
+
+### Associativity and Precedence of Logical Operators
+
+1. NOT (highest) 
+2. NAND - *commutative*
+3. NOR - *commutative*
+4. AND - *associative & commutative*
+5. OR - *associative & commutative*
+6. !
+7. $$\equiv$$ (lowest) - *associative & commutative*
+
+e.g. p ! q NOT p OR q is grouped (p ! q) $$\equiv$$ (NOT p) OR q.
 
 ### Concepts
 
