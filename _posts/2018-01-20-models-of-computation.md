@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Models of Computation
+title: Models of Computation...
 date: 2018-01-20 15:36 +0800
 tags: notes automata propositional-logic
 ---

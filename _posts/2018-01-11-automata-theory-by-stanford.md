@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automata Theory By Stanford
+title: Automata Theory By Stanford...
 date: 2018-01-11 12:16:00 +1100
 tags: notes automata
 ---

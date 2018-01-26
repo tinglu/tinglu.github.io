@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Compilers By Stanford
+title: Compilers By Stanford...
 date: 2018-01-05 11:04:00 +1100
 tags: notes compilers
 ---

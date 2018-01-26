@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Knowledge Technologies
+title: Knowledge Technologies...
 date: 2018-01-20 15:52 +0800
 tags: notes knowledge machine-learning
 ---

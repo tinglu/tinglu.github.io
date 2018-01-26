@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Declarative Programming
+title: Declarative Programming...
 date: 2018-01-20 15:51 +0800
 tags: notes functional-programming haskell
 ---

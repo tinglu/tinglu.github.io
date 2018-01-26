@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Propositional Logic
+title: Propositional Logic...
 date: 2018-01-26 15:08 +0800
 tags: notes propositional-logic automata
 ---
@@ -30,3 +30,5 @@ every Boolean function has an expression using just these operators:
 1. (p AND q) $$\equiv$$ (p NAND q) NAND TRUE
 2. (p OR q) $$\equiv$$ (p NAND TRUE) NAND (q NAND TRUE)
 3. (NOT p) $$\equiv$$ (p NAND TRUE)
+
+...
