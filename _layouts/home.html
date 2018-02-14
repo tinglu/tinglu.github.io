@@ -10,7 +10,7 @@ layout: default
 
     {% for post in site.posts %}
     <article class="post-list">
-        <header>
+        <header class="post-header">
             <small class="post-date">{{ post.date | date: "%Y %-B %d" }}</small>
             <small class="post-tag">
                 {% for tag in post.tags %}

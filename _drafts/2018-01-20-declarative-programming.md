@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Declarative Programming...
+title: Haskell Revision
 date: 2018-01-20 15:51 +0800
-tags: notes functional-programming haskell
+tags: notes functional-programming haskell declarative-programming
 ---
 
 This is the summary of my study of COMP90048 Declarative Programming (SM2 2017).

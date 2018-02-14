@@ -149,7 +149,11 @@ nav .nav-wrapper i {
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit * 2;
+  position: relative;
+
+  .post & {
+    margin-bottom: $spacing-unit * 2;
+  }
 }
 
 .post-date {
@@ -162,11 +166,16 @@ nav .nav-wrapper i {
 .post-tag {
   padding: 6px 0;
   letter-spacing: 1px;
-  float: right;
+
+  @media #{$medium-and-up} {
+    position: absolute;
+    right: 0;
+    max-width: 400px;
+    text-align: right;
+  }
 
   @media #{$small-and-down} {
     display: block;
-    float: none;
   }
 
   > a {
