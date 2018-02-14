@@ -49,6 +49,11 @@ NOT is not monotone. Hence there is no way to express NOT by AND’s and OR’s.
 
 ## Truth Tables
 
+### Karnaugh map 
+> There is a graphical technique for designing sum-of-products expressions from truth tables; 
+> the method works well for Boolean functions up to four variables. 
+> The idea is to write a truth table as a two-dimensional array called a Karnaugh map 
+> (pronounced “car-no”) whose entries, or “points,” each represent a row of the truth table. 
 
 ## From Boolean Functions to Logical Expressions
 
