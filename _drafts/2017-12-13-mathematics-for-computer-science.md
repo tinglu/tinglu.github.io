@@ -5,9 +5,7 @@ date: 2017-12-13 16:49:00 +1100
 tags: notes mathematics
 ---
 
-This is my study notes of [MIT6.042J Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/) 
-offered by MIT OCW. The course covers elementary discrete mathematics for computer science and engineering. 
-It emphasizes mathematical definitions and proofs as well as applicable methods.
+This is my study notes of [MIT6.042J Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/) offered by MIT OCW. The course covers elementary discrete mathematics for computer science and engineering. It emphasizes mathematical definitions and proofs as well as applicable methods.
 The notes below contain my summaries, lecture materials, and some assessments answers.
 
 ## 1.1 Intro to proofs
