@@ -9,9 +9,9 @@ This is my study notes of [CS143 Compilers](https://lagunita.stanford.edu/course
 offered by Stanford Online and the resources can also be found on the [web homepage](http://web.stanford.edu/class/cs143/).
 The notes below contain my summaries, lecture materials, and some assessments answers.
 
-## Intro
+# Intro
 
-### The Structure of a Compiler
+## The Structure of a Compiler
 
 1. Lexical Analysis - Syntactic
 2. Parsing - Syntactic

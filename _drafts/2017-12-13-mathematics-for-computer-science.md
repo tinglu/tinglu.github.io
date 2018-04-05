@@ -74,15 +74,12 @@ The product of two odd numbers is odd.
 
 ### Digital Logic
 
-$\bar{x} ::= NOT(x)$
+$$\bar{x} ::= NOT(x)$$
 
-$1 ::= T$
-
-$0 ::= F$
-
-$. ::= AND$
-
-$+ ::= OR$
+    1 ::= T
+    0 ::= F
+    . ::= AND
+    + ::= OR
 
 ### 1.4.1 Propositional Operators: Video
 
@@ -147,7 +144,7 @@ Two Profound Meta- Theorems about Mathematical Logic:
 
 * (Thm 2) [Validity is undecidable], Bad News: there is no procedure to determine whether a quantified formula is valid (in contrast to propositional formulas).
 
-### 1.5.5 Name That Predicate!
+### 1.5.5 Name That Predicate
 
 ### 1.5.6 Quantifiers
 
@@ -161,9 +158,9 @@ Two Profound Meta- Theorems about Mathematical Logic:
 
 `Powerset`:
 
-pow({T, F}) = {{T}, {F}, {T, F}, ∅}
-Z ∈ pow(R)
-B ∈ pow(A) iff B ⊆ A
+    pow({T, F}) = { {T}, {F}, {T, F}, ∅ }
+    Z ∈ pow(R)
+    B ∈ pow(A) iff B ⊆ A
 
 ### 1.6.2 Sets Operations: Video
 
@@ -189,9 +186,8 @@ range(R) ::= elements with arrows coming in = R(A)
 
 A `function`, F, from A to B is a relation which associates each element, a, of A with at most one element of B (called F(a)).
 
-F: A -> B is a function IFF |F(a)| <= 1
-
-IFF [a F b AND a F b'| IMPLIES b = b'
+    F: A -> B is a function IFF |F(a)| <= 1
+    IFF a F b AND a F b' IMPLIES b = b'
 
 ### 1.7.2 Range of a Relation
 
@@ -498,9 +494,9 @@ Weak partial orders (WPO):
 
 ### 2.10.5 Spanning Trees: Video
 
-### 2.10.6 Span all the Graphs!
+### 2.10.6 Span all the Graphs
 
-### 2.10.7 Tree or Not Tree?
+### 2.10.7 Tree or Not Tree
 
 ### 2.10.8 Leaves
 
