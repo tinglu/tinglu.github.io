@@ -2,10 +2,10 @@
 layout: post
 title: Haskell Revision
 date: 2018-01-20 15:51 +0800
-tags: notes functional-programming haskell declarative-programming
+tags: notes functional-programming haskell declarative-programming tbc
 ---
 
-This is the summary of my study of COMP90048 Declarative Programming (SM2 2017).
+A very little notes of my study of COMP90048 Declarative Programming (SM2 2017).
 The notes below contain my summaries and lecture materials (&copy; the University of Melbourne).
 
 ## Some concepts

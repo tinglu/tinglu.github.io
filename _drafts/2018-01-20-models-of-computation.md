@@ -2,7 +2,7 @@
 layout: post
 title: Models of Computation...
 date: 2018-01-20 15:36 +0800
-tags: notes automata propositional-logic
+tags: notes automata propositional-logic tbc
 ---
 
 I'd like to study COMP30026 Models of Computation independently in my spare time.

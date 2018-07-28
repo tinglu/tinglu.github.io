@@ -2,7 +2,7 @@
 layout: post
 title: Propositional Logic...
 date: 2018-01-26 15:08 +0800
-tags: notes propositional-logic automata
+tags: notes propositional-logic automata tbc
 ---
 
 This is supposed to be a complementary note to the post of [Models of Computation](/models-of-computation).

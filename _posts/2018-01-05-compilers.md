@@ -2,7 +2,7 @@
 layout: post
 title: Compilers By Stanford...
 date: 2018-01-05 11:04:00 +1100
-tags: notes compilers
+tags: notes compilers tbc
 ---
 
 This is my study notes of [CS143 Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/info) 

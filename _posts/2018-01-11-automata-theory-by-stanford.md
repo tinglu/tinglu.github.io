@@ -2,7 +2,7 @@
 layout: post
 title: Automata Theory By Stanford...
 date: 2018-01-11 12:16:00 +1100
-tags: notes automata
+tags: notes automata tbc
 ---
 
 This is my study notes of [Automata Theory](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+Automata+Fall2016/info) 
