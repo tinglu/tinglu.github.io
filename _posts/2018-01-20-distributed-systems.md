@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Distributed Systems
+title: Distributed Systems Revision
 date: 2018-01-20 15:52 +0800
 tags: notes distributed-systems
 ---

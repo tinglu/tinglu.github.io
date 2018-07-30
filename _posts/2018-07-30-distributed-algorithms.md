@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Distributed Algorithms
+title: Distributed Algorithms Revision
 date: 2018-07-30 15:43 +1000
 tags: notes distributed-systems algorithms
 ---
