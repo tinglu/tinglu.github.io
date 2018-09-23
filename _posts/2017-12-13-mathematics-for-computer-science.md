@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mathematics for Computer Science By MIT...
+title: Mathematics for Computer Science By MIT
 date: 2017-12-13 16:49:00 +1100
 tags: notes mathematics tbc
 ---

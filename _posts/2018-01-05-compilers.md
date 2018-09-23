@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Compilers By Stanford...
+title: Compilers By Stanford
 date: 2018-01-05 11:04:00 +1100
 tags: notes compilers tbc
 ---
 
-This is my study notes of [CS143 Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/info) 
+This is my study notes of [CS143 Compilers](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/info)
 offered by Stanford Online and the resources can also be found on the [web homepage](http://web.stanford.edu/class/cs143/).
 The notes below contain my summaries, lecture materials, and some assessments answers.
 
