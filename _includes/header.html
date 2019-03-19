@@ -6,15 +6,15 @@
                     <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
                     <div class="trigger">
                         <ul class="social-media-list right">
-                            {% if site.linkedin_username %}
-                            <li>
-                                {% include icon-linkedin.html username=site.linkedin_username %}
-                            </li>
-                            {% endif %}
-
                             {% if site.github_username %}
                             <li>
                                 {% include icon-github.html username=site.github_username %}
+                            </li>
+                            {% endif %}
+
+                            {% if site.linkedin_username %}
+                            <li>
+                                {% include icon-linkedin.html username=site.linkedin_username %}
                             </li>
                             {% endif %}
 

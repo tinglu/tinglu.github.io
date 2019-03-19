@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://lisalu.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: lisatinglu
 github_username:  tinglu
-codepen_username: lisatinglu
+# codepen_username: lisatinglu
 twitter_username: lisatinglu
 
 google_analytics: UA-31132044-2
