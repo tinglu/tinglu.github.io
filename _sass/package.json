@@ -1,6 +1,6 @@
 {
   "name": "materialized-jekyll",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "This is a Jekyll theme built on top of minima and inspired by materialize-sass.",
   "main": "main.js",
   "scripts": {
@@ -11,9 +11,9 @@
     "url": "git+ssh://git@github.com/tinglu/materialized-jekyll.git"
   },
   "keywords": [
-    "materilize",
-    "jekyll",
-    "theme"
+    "tinglu",
+    "lisalu",
+    "blog"
   ],
   "author": "tinglu",
   "license": "MIT",
