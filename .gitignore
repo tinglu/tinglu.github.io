@@ -8,3 +8,6 @@ _site
 _sass/node_modules/*
 !_sass/node_modules/jquery
 !_sass/node_modules/materialize-css
+
+.bundle
+vendor/
